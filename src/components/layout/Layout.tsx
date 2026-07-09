@@ -12,7 +12,7 @@ export default function Layout() {
       { /*<Child/> */}
 
       <h1>My App</h1>
-      <button onClick={() => setIsOpen(true)}>
+      <button className="btn btn-primary" onClick={() => setIsOpen(true)}>
         Open Modal
       </button>
 
