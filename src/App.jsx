@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Layout from './components/Layout'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,7 @@ function App() {
   return (
     <>
       <section className="container my-2">
-        <p>Layout</p>
+        <Layout/>
       </section>
     </>
   )
