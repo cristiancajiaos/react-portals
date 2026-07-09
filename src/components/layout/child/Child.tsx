@@ -1,7 +1,10 @@
+import { createPortal } from "react-dom";
+
 export default function Child() {
-  return (
+  return createPortal (
     <div>
       <p>Child</p>
-    </div>
+    </div>,
+    document.body
   );
 }
